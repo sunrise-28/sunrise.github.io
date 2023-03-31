@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+  <!-- Descriptions -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tingyu Yang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hello! I'm Tingyu Yang, a Taipei digital graphic designer" />
+  <meta name="keywords" content="Tingyu Yang, graphic design, freelance, digital project" />
+  <meta name="author" content="Tingyu" />
+
+
+
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- smooth-scroll -->
+  <script src="js/smooth-scroll.js"></script>
+  <!-- parallax image-->
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+  <!-- animsition.css -->
+  <link rel="stylesheet" href="css/animsition.min.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0/jquery.min.js"></script>
+  <!-- animsition.js -->
+  <script src="js/animsition.min.js"></script>
+
+  <!-- Navbar -->
+  <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(){
+
+    el_autohide = document.querySelector('.autohide');
+
+    // add padding-top to bady (if necessary)
+    navbar_height = document.querySelector('.navbar').offsetHeight;
+    document.body.style.paddingTop = navbar_height + 'px';
+
+    if(el_autohide){
+
+      var last_scroll_top = 0;
+      window.addEventListener('scroll', function() {
+        let scroll_top = window.scrollY;
+        if(scroll_top < last_scroll_top) {
+          el_autohide.classList.remove('scrolled-down');
+          el_autohide.classList.add('scrolled-up');
+        }
+        else {
+          el_autohide.classList.remove('scrolled-up');
+          el_autohide.classList.add('scrolled-down');
+        }
+        last_scroll_top = scroll_top;
+
+      });
+      // window.addEventListener
+    }
+    // if
+  });
+  // DOMContentLoaded  end
+  </script>
+
+</head>
+
+<body>
+
+  <!-- ============= navbar ============== -->
+  <nav class="navbar">
+
+    <div class="container">
+
+      <a class="navbar-brand mp-brand" href="index.html">Tingyu Yang</a>
+
+      <div class="" id="main_nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html"> Works & About </a></li>
+        </ul>
+      </li>
+    </ul>
+  </div> <!-- navbar-collapse.// -->
+
+</div> <!-- container-fluid.// -->
+
+</nav>
+
+<nav class="autohide navbar">
+
+  <div class="container">
+
+    <a class="navbar-brand mp-brand" href="index.html">Tingyu Yang</a>
+
+    <div class="" id="main_nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html"> Works & About </a></li>
+      </ul>
+    </li>
+  </ul>
+</div> <!-- navbar-collapse.// -->
+
+</div> <!-- container-fluid.// -->
+
+</nav>
+<!-- ============= navbar end ============== -->
+
+<section class="demo animsition">
+
+
+  <!-- ============= apertura ============== -->
+  <header>
+    <div class="apertura">
+
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-xl-10">
+
+            <h1>Digitals</h1>
+
+            <p>Web, Edm, Banners, illustration, Videos</p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- <div class="container-fluid apertura-cover works-row">
+      <picture class="">
+
+        <source srcset="images/ntplus/ntplus-cover.webp, images/ntplus/ntplus-cover.webp 2x" media="(min-width: 768px)">
+          <img class="thumbnail img-cover img-fluid" srcset="images/ntplus/ntplus-cover-375.webp, images/ntplus/ntplus-cover-375.webp 2x">
+
+        </picture> -->
+
+    </header>
+
+
+    <!-- ============= Works ============== -->
+
+    <main>
+      <div class="container works">
+
+        <!-- ============= 1 colonna ============== -->
+
+
+        <div class="row apertura-cover works-row">
+
+
+          <div class="col-md-6" style="display: inline;">
+             <img srcset="images/ntplus/digital-01.png, images/ntplus/digital-01.png 2x">
+          </div>
+          <div class="col-md-6" style="display: inline;">
+            <img srcset="images/ntplus/digital-02.png, images/ntplus/digital-02.png 2x">
+         </div>
+         <div><p></p></div>
+         <div class="col-md-6" style="display: inline;">
+          <img srcset="images/ntplus/digital-03.png, images/ntplus/digital-03.png 2x">
+       </div>
+       <div class="col-md-6" style="display: inline;">
+        <img srcset="images/ntplus/digital-04.png, images/ntplus/digital-04.png 2x">
+     </div>
+     <div><p></p></div>
+     <div class="col-md-6" style="display: inline;">
+      <img srcset="images/ntplus/digital-05.png, images/ntplus/digital-05.png 2x">
+   </div>
+   <div class="col-md-6" style="display: inline;">
+    <img srcset="images/ntplus/digital-06.png, images/ntplus/digital-06.png 2x">
+ </div>
+ <div><p></p></div>
+ <div class="col-md-6" style="display: inline;">
+  <img srcset="images/ntplus/digital-07.png, images/ntplus/digital-07.png 2x">
+</div>
+<div class="col-md-6" style="display: inline;">
+  <img srcset="images/ntplus/digital-08.png, images/ntplus/digital-08.png 2x">
+</div>
+<div><p></p></div>
+<div class="col-md-6" style="display: inline;">
+  <img srcset="images/ntplus/digital-09.png, images/ntplus/digital-09.png 2x">
+</div>
+<div class="col-md-6" style="display: inline;">
+  <img srcset="images/ntplus/digital-10.png, images/ntplus/digital-10.png 2x">
+</div>
+<div><p></p></div>
+<div class="col-md-6" style="display: inline;">
+  <img srcset="images/ntplus/digital-11.png, images/ntplus/digital-11.png 2x">
+</div>
+<div class="col-md-6" style="display: inline;">
+  <img srcset="images/ntplus/digital-12.png, images/ntplus/digital-12.png 2x">
+</div>
+<div><p></p></div>
+<div class="col-md-6" style="display: inline;">
+  <img srcset="images/ntplus/digital-13.png, images/ntplus/digital-13.png 2x">
+</div>
+            
+
+          </div>
+
+
+          
+
+
+          </main>
+
+        </section>
+
+        <footer>
+
+          
+
+
+        <div class="container footer">
+          <div class="row footer-line">
+            <div class="col-md-6 mp-brand"><a class="" href="index.html">Tingyu Yang</a></div>
+            <!--div class="col-md-6"><p class="caption footer-caption">Download this template on <a href="https://github.com/mpocobelli/portfolio" target="_blank">Github</a></p></div-->
+          </div>
+        </div>
+
+        <!-- loader -->
+        <script>
+        $(document).ready(function() {
+          $(".animsition").animsition({
+            inClass: 'fade-in-up',
+            outClass: 'fade-out-up',
+            inDuration: 1500,
+            outDuration: 800,
+            linkElement: '.animsition-link',
+            // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+            loading: true,
+            loadingParentElement: 'body', //animsition wrapper element
+            loadingClass: 'animsition-loading',
+            loadingInner: '', // e.g '<img src="loading.svg" />'
+            timeout: false,
+            timeoutCountdown: 5000,
+            onLoadEvent: true,
+            browser: [ 'animation-duration', '-webkit-animation-duration'],
+            // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+            // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+            overlay : false,
+            overlayClass : 'animsition-overlay-slide',
+            overlayParentElement : 'body',
+            transition: function(url){ window.location.href = url; }
+          });
+        });
+        </script>
+
+        <!-- scroll image -->
+        <script>
+        var image = document.getElementsByClassName('thumbnail');
+        new simpleParallax(image, {
+          delay: .6,
+          transition: 'cubic-bezier(0,0,0,1)'
+        });
+        </script>
+
+        <!-- SmoothScroll -->
+        <script>
+        smoothScroll.init({
+          speed: 100, // Integer. How fast to complete the scroll in milliseconds
+          easing: 'easeInOutCubic', // Easing pattern to use
+          offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+        });
+        </script>
+
+        <script>
+        if (window.location.hash) {
+          var anchor = document.querySelector(window.location.hash); // Get the anchor
+          var toggle = document.querySelector('a[href*="' + window.location.hash + '" ]'); // Get the toggle (if one exists)
+          var options = {}; // Any custom options you want to use would go here
+          smoothScroll.animateScroll(anchor, toggle, options);
+        }
+        </script>
+
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- loader -->
+        <script src="js/pace.min.js"></script>
+        <!-- menu -->
+        <script src="js/fullscreen-menu.js"></script>
+
+      </footer>
+
+    </body>
+
+    </html>
